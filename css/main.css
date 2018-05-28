@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+#search {
+  margin: 20px auto;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  margin: 10px 10px;
+}
+
+.lb-nav a.lb-next {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+  }
+  #search {
+    width: 50%;
+  }
+}
